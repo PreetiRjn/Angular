@@ -1,0 +1,28 @@
+{
+    "records":[
+    {
+        "name":"Preeti",
+        "id":"PRE312",
+        "imageUrl":"images/1.jpeg"
+    },
+    {
+        "name":"Ramya",
+        "id":"RAM312",
+        "imageUrl":"images/2.jpeg"
+    },
+    {
+        "name":"Ricky",
+        "id":"RIC312",
+        "imageUrl":"images/3.jpeg"
+    },
+    {
+        "name":"Sky",
+        "id":"SKY312",
+        "imageUrl":"images/4.jpeg"
+    },
+    {
+        "name":"Tree",
+        "id":"TRE312",
+        "imageUrl":"images/2.jpeg"
+    }
+]}

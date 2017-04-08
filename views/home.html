@@ -1,0 +1,29 @@
+<h1>Fresenius Kabi</h1>
+<div ng-controller="homeController">
+    <ul class="nav navbar-nav">
+    <li><a href="#header">header</a></li>
+    <li><a href="#meddevice">Medical Devices</a></li>
+    <li><a href="#pharma">Pharma Products</a></li>
+    </ul>
+    {{urlPath}}
+    {{mesg}}
+    <div>{{timenow}}</div>
+    <div>{{hex}}</div>
+    <ul>
+    <li ng-repeat="x in names">
+        {{x | myFilter}}
+    </li>
+</ul>
+<ul>
+    <table>
+  <tr ng-repeat="x in contacts">
+      <td>{{ $index + 1 }}</td>
+    <td ng-if="$odd" style="background-color:#f1f1f1">{{ x.name }}</td>
+    <td ng-if="$even" style="background-color:#333">{{ x.name }}</td>
+    <td>{{ x.id }}</td>
+    <td><img ng-src="{{x.imageUrl}}" alt="{{x.name}}" /></td>
+  </tr>
+</table>
+
+</ul>
+</div>
